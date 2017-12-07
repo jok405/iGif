@@ -1,0 +1,85 @@
+<!--author: John Kim
+@github: jok405
+@comment: HW 6 -->
+
+<!--beginning of pseudo:
+	layer song: da Dip
+	artist: Freak Nasty
+
+	link css
+
+	title <h1>
+
+
+figure out what goes into the container
+	buttons bootstrap this? ..maybe
+	div for animals
+
+	where would we add inputs for the animals?
+
+	labels? from css? or bootstrap?
+
+	when and where does the api link up?
+
+
+-->
+
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+
+	<head>
+		<title>iGif uGif WeGif!</title>
+
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+
+		<!-- Title Page -->
+		<h1 id = "logo">The <span id = "iGif ">iGif uGif WeGif</span> Funky App!</h1>
+
+		<br>
+		
+		<div id = "main_container">
+			<!-- Div to Append Dance Buttons -->
+			<div id = "dance_button"></div>
+
+
+			<!-- Div to contain Dance Inputs Form -->
+			<div id = "dance_input_box">
+				<form id = "dance_form">
+
+					<!-- Label for Form -->
+					<label for = "inputDance">Add a Dance!</label>
+
+					<br>
+
+					<!-- Input Box -->
+					<input type="text" id="inputDance">
+
+					<br>
+
+					<!-- Submit Button -->
+					<input id = "add_dance" type="submit">	
+
+				</form>
+			</div>
+
+
+			<!-- Div to contain AJAX outputs of Animals -->
+			<div id = "dance_images"></div>
+
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="assets/javascript/iGif.js"></script>
+
+	</body>
+
+</html>
+
+
