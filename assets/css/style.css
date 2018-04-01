@@ -1,3 +1,4 @@
+
 #logo{
 	font-size: 75px;
 
@@ -5,37 +6,30 @@
 	margin-top: 20px;
 
 	font-weight: bold;
-	font-family: 'Ubuntu', cursive;
+	font-family: 'Roboto', sans-serif;
 }
 
-
-h1{
-	margin-top: 15px;
-	margin-bottom: 5px;
-
-	font-size: 20px;
-	font-weight: bold;
-}
 
 body{
-	background-color: #00FFFF;
-
-	font-family: 'Ubuntu', cursive;
+	
+	background-color: #998c61;
+	font-family: 'Roboto', sans-serif;
 	color: #000000;
 }
 
 html{
 	border: 30px solid;
+	border-image: url("../images/zoo_backg.jpg") 30 round;
 
 	/*border: 2px solid;*/
-	border-color: #ac7339;
+	border-color: #727272;
 
 	min-height: 100%;
 }
 
-#iGif{
+#animaltastic{
 	font-style: italic;
-	color: #ff0000;
+	color: #885555;
 }
 
 #main_container{
@@ -43,7 +37,7 @@ html{
 	margin-left: 35px;
 }
 
-#dance_input_box{
+#animal_input_box{
 	float: right;
 
 	padding-right: 10%;
@@ -56,8 +50,8 @@ label{
 	font-size: 20px;
 }
 
-#add_dance{
-	background-color: #cc0000;
+#add_animal{
+	background-color: #1fa2faf6;
 
 	border-color: #000000;
 
@@ -78,25 +72,25 @@ label{
 
 
 
-#inputDance{
+#animal_input{
 	height: 20px;
 	width: 200px;
 
 	margin-top: 10px;
 }
 
-#dance_button{
+#animal_buttons{
 	margin-right: 20%;
 }
 
-#dance_images{
+#animal_images{
 	margin-right: 25%;
 }
 
 
 button {
 	margin: 5px;
-	background-color: #0059b3;
+	background-color: #00b309;
 
 	color: white;
 	font-size: 14px;
@@ -121,4 +115,16 @@ button {
 	margin-right: 20px;
 
 }
+
+
+h1{
+	margin-top: 15px;
+	margin-bottom: 5px;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
 

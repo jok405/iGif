@@ -1,85 +1,64 @@
-<!--author: John Kim
-@github: jok405
-@comment: HW 6 -->
+<!--  Animal Gif App | University of Richmond | John Kim  -->
 
-<!--beginning of pseudo:
-	layer song: da Dip
-	artist: Freak Nasty
-
-	link css
-
-	title <h1>
-
-
-figure out what goes into the container
-	buttons bootstrap this? ..maybe
-	div for animals
-
-	where would we add inputs for the animals?
-
-	labels? from css? or bootstrap?
-
-	when and where does the api link up?
-
-
--->
-
-<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-
+<!DOCTYPE html>
+<html>
 	<head>
-		<title>iGif uGif WeGif!</title>
+		<title>Animal Gif App</title>
 
+		<!-- Link in CSS Style -->
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
 
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
 	<body>
 
 		<!-- Title Page -->
-		<h1 id = "logo">The <span id = "iGif ">iGif uGif WeGif</span> Funky App!</h1>
+		<h1 id = "logo">The <span id = "animaltastic">Animal Gif</span> App!</h1>
 
 		<br>
 		
 		<div id = "main_container">
-			<!-- Div to Append Dance Buttons -->
-			<div id = "dance_button"></div>
+			<!-- Div to Append Animal Buttons -->
+			<div id = "animal_buttons"></div>		
 
 
-			<!-- Div to contain Dance Inputs Form -->
-			<div id = "dance_input_box">
-				<form id = "dance_form">
+			<!-- Div to contain Animal Inputs Form -->
+			<div id = "animal_input_box">
+				<form id = "animal_form">
 
 					<!-- Label for Form -->
-					<label for = "inputDance">Add a Dance!</label>
+					<label for = "animal_input">Add an Animal to the list</label>
 
 					<br>
 
 					<!-- Input Box -->
-					<input type="text" id="inputDance">
+					<input type="text" id="animal_input">
 
 					<br>
 
 					<!-- Submit Button -->
-					<input id = "add_dance" type="submit">	
+					<input id = "add_animal" type="submit">	
 
 				</form>
 			</div>
 
 
 			<!-- Div to contain AJAX outputs of Animals -->
-			<div id = "dance_images"></div>
+			<div id = "animal_images"></div>
 
 		</div>
 
 
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="assets/javascript/iGif.js"></script>
+		<!-- Link in jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="" crossorigin="anonymous"></script>
+
+		<!-- Link in Animal API and Basic JavaScript -->
+		<script src="assets/javascript/giphy.js"></script>
+
+		
 
 	</body>
-
 </html>
-
-
