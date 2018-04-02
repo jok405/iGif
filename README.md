@@ -1,7 +1,7 @@
 # Animal Gif App
 A Webapp that uses jQuery, AJAX and the GIPHY API to display cute animal GIFs of your choosing.
 
-Please checkout out the deployed app on Heroku [here](###http://.herokuapp.com)!
+Please checkout out the deployed app on Heroku [here](https://igif.herokuapp.com/)!
 
 # Screenshots
 
