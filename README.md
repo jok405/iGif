@@ -8,7 +8,7 @@ Please checkout out the deployed app on Heroku [here](###http://.herokuapp.com)!
 #### Select an animal from the green button to retrieve GIFs from GIPHY 
 ![Animal Button](/screenshots/dog.png)
 
-#### Add a new animal button using the form and press submit 
-![Animal Button](/screenshots/.png)
+#### Add a new animal button using the input form and submit 
+![Animal Button](/screenshots/new.png)
 
-#### Click on each image to play the GIF
+#### Click on an image to play the GIF
