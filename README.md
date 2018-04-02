@@ -5,7 +5,7 @@ Please checkout out the deployed app on Heroku [here](###http://.herokuapp.com)!
 
 # Screenshots
 
-#### Click on a blue animal button to pull in GIFs from GIPHY 
+#### Select an animal from the green button to retrieve GIFs from GIPHY 
 ![Animal Button](/screenshots/dog.png)
 
 #### Add a new animal button using the form and press submit 
